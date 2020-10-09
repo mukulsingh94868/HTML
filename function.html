@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>hello</title>
+  <style>
+    h1 {
+      color : blue;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function welcomeMsg(msg){
+      alert(msg);
+      var name = prompt("what is your name?");
+      return name;
+    }
+    var firstName = welcomeMsg("hi");
+    document.write(firstName);
+
+    var x = prompt("hello world");
+    document.write(x);
+
+    <div onclick = "message()">Clicking on this Div will invoke a JavaScript function</div>
+
+    function function_name(argument) {
+      // body...
+    }
+
+
+    function displayDate(){
+      document.getElementById("demo").innerHTML=Date();
+    }
+
+    var z = displayDate();
+    document.write(z);
+
+
+
+  </script>
+<h1>hello world</h1>
+<button type="button" onclick="displayDate()">Display Date</button>
+</body>
+</html>
